@@ -7,7 +7,7 @@ const Home = () => {
   const [data, setData] = useState([]);
   const getData = async (page) => {
     let data = await fetch(
-      `http://localhost:3030/api/v3/app/events?type=latest&limit=10&page=${page}`
+      `https://eventbackend.vercel.app/api/v3/app/events?type=latest&page=${page}&limit=10`
     );
     let res = await data.json();
     setData(res);
