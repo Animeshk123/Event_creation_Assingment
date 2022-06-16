@@ -1,2 +1,3 @@
-# Event_creation_Assingment
-Created with CodeSandbox
+# Event_creation_frontend
+## The preview is here
+### https://eventcreate.vercel.app/
