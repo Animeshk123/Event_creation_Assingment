@@ -47,7 +47,7 @@ const Form = () => {
     formData.append("schedule", data.scdate);
     try {
       const res = await axios.post(
-        "http://localhost:3030/api/v3/app/events",
+        "https://eventbackend.vercel.app/api/v3/app/events",
         formData
       );
       console.log(res);
