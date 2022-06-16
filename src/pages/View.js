@@ -12,7 +12,7 @@ const View = () => {
       setData(user.data);
     } else {
       let data = await fetch(
-        `http://localhost:3030/api/v3/app/events?id=${id}`
+        `https://eventbackend.vercel.app/api/v3/app/events?id=${id}`
       );
       let res = await data.json();
       console.log(res);
