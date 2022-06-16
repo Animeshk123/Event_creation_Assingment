@@ -1,0 +1,19 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.text-lightWhite {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.down {
+  top: 2rem;
+  left: 0;
+}
+.down li {
+  list-style-type: none;
+}
