@@ -47,7 +47,7 @@ const View = () => {
         <hr />
         <p className="mt-12 px-4">{data.description}</p>
         <div className="flex items-center px-4 mt-12 justify-between">
-          <img src={data.logoImageUrl} />
+          <img src={data.logoImageUrl} className="h-12 w-12 rounded-full object-cover object-center"/>
           <p>{taskDate(data.createdAt)}</p>
         </div>
       </div>
