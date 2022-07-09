@@ -5,7 +5,7 @@ const cus = (props) => {
   const navigate = useNavigate();
   const deleteData = async () => {
     let data = await fetch(
-      `http://localhost:3030/api/v3/app/events?id=${props.id}`,
+      `https://eventbackend.vercel.app/api/v3/app/events?id=${props.id}`,
       {
         method: "DELETE"
       }
@@ -20,7 +20,7 @@ const cus = (props) => {
   const editData = async () => {
     let title = prompt("enter Title to change");
     let data = await fetch(
-      `http://localhost:3030/api/v3/app/events?id=${props.id}&name=${title}`,
+      `https://eventbackend.vercel.app/api/v3/app/events?id=${props.id}&name=${title}`,
       {
         method: "PUT"
       }
