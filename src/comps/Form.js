@@ -63,6 +63,7 @@ const Form = () => {
       navigate("/");
     } catch (ex) {
       console.log(ex);
+      alert(ex.message);
       setData({
         tag: "",
         title: "",
